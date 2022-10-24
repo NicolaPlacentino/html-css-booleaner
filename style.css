@@ -1,5 +1,5 @@
 .container{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -19,6 +19,14 @@
     color: rgb(83, 187, 222);
 }
 
+.highlighted-y{
+    background-color: yellow;
+}
+
+.highlighted-b{
+    background-color: lightblue;
+}
+
 
 header img{
     height: 75%;
@@ -33,3 +41,14 @@ h1{
     font-size: 12px;
 }
 
+figure{
+    margin: 15px 0px 0px;
+}
+
+.image-description{
+    font-size: 12px;
+}
+
+ul{
+    padding: 15px;
+}
