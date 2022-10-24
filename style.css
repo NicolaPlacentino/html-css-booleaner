@@ -1,3 +1,16 @@
-p{
-    color: red;
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(75, 130, 225);
+    background-image: url(img/pattern.png);
+    background-size: 300px;
+}
+
+header img{
+    height: 75%;
+    margin: 15px 0;
 }
