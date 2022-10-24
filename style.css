@@ -23,8 +23,16 @@
     background-color: yellow;
 }
 
-.highlighted-b{
+.white{
+    color: white;
+}
+
+.highlighted-lb{
     background-color: lightblue;
+}
+
+.highlighted-b{
+    background-color: blue;
 }
 
 
@@ -51,4 +59,16 @@ figure{
 
 ul{
     padding: 15px;
+}
+
+td{
+    padding: 5px;
+}
+
+.first-column{
+    padding-right: 100px;
+}
+
+.second-column{
+    padding-right: 100px;
 }
