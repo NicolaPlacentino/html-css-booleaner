@@ -3,14 +3,33 @@
     margin: 0 auto;
 }
 
-header{
+.container > header{
     height: 100px;
     background-color: rgb(75, 130, 225);
     background-image: url(img/pattern.png);
     background-size: 300px;
 }
 
+/*colors*/
+.gray{
+    color: gray;
+}
+
+.light-blue{
+    color: rgb(83, 187, 222);
+}
+
+
 header img{
     height: 75%;
     margin: 15px 0;
 }
+
+h1{
+    margin-bottom: 0;
+}
+
+#date{
+    font-size: 12px;
+}
+
