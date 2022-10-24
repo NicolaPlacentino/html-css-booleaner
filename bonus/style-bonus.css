@@ -62,15 +62,16 @@ ul{
     padding: 15px;
 }
 
-td{
+table{
+    border-spacing: 0;
+}
+
+th, td{
     padding: 5px;
+    text-align: left;
 }
 
-.first-column{
-    padding-right: 100px;
-}
-
-.second-column{
+th{
     padding-right: 100px;
 }
 
