@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="style-bonus.css">
 </head>
 <body>
-    <header>
-        <img src="../img/logo.svg" alt="The Booleaner" id="logo">
+    <header id="header-background">
+        <div class="container"><img src="../img/logo.svg" alt="The Booleaner" id="logo"></div>
     </header>
 
    <div class="container">
-       
 
         <main>
             <!-- title -->
             <header>
                 <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
-                <span id="author" class="gray">Scritto da <span class="light-blue">The Booleaner</span></span>
+                <span id="author" class="gray">Scritto da <a href="#" class="light-blue">The Booleaner</a></span>
                 <br>
                 <span id="date" class="gray">il 10/10/2020</span>
             </header>
@@ -29,11 +28,13 @@
                     <img src="../img/tim-1.jpg" alt="Tim Berners Lee">
                     <img src="../img/tim-2.jpg" alt="Tim Berners Lee">
                 </figure>
-                <span class="image-description">
-                    1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen 
-                    <br>
-                    2nd Photo: Tim Berners Lee, by Paul Clark
-                </span>
+                <figcaption>
+                    <span class="image-description">
+                        1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen 
+                        <br>
+                        2nd Photo: Tim Berners Lee, by Paul Clark
+                    </span>
+                </figcaption>
             </section>
             
             <!-- main article -->
@@ -54,9 +55,11 @@
 
                 <table>
                     <thead class="highlighted-b white">
-                        <th>Lorem Ipsum Dolor</th>
-                        <th>Lorem Ipsum Dolor</th>
-                        <th>Lorem Ipsum Dolor</th>
+                        <tr>
+                            <th>Lorem Ipsum Dolor</th>
+                            <th>Lorem Ipsum Dolor</th>
+                            <th>Lorem Ipsum Dolor</th>
+                        </tr>
                     </thead>
 
                     <tbody class="highlighted-lb">
@@ -90,12 +93,12 @@
 
         <footer>
             <span class="gray"><b>Potrebbero interessarti</b></span>
-            <br>
-            <div id="monitor" class="white"><b>Lorem Ipsum Dolor</b></div>
-            <br>
-            <div id="graph" class="white"><b>Lorem Ipsum Dolor</b></div>
+            <figure>
+                <div id="monitor" class="ad white"><b>Lorem Ipsum Dolor</b></div>
+                <br>
+                <div id="graph" class="ad white"><b>Lorem Ipsum Dolor</b></div>
+            </figure>
         </footer>
    </div>
 </body>
 </html>
-

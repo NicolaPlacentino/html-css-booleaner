@@ -3,21 +3,22 @@
     margin: 0 auto;
 }
 
-body > header{
+#header-background{
     height: 100px;
     background-color: rgb(75, 130, 225);
     background-image: url(../img/pattern.png);
     background-size: 300px;
-    text-align: center;
 }
 
 /*colors*/
 .gray{
     color: gray;
+    margin: 10px;
 }
 
 .light-blue{
     color: rgb(83, 187, 222);
+    text-decoration: none;
 }
 
 .highlighted-y{
@@ -36,10 +37,11 @@ body > header{
     background-color: blue;
 }
 
+/* generic */
 
-header img{
-    height: 75%;
-    margin: 15px 0;
+#logo{
+    height: 75px;
+    margin: 15px 0
 }
 
 h1{
@@ -75,17 +77,17 @@ th{
     padding-right: 100px;
 }
 
-#monitor{
-    
-    background-image: url(../img/monitor.jpg);
+.ad{
     height: 208px;
     width: 312px;
-    margin-top: 10px;
+    padding: 15px;
+    background-repeat: no-repeat;
+}
+
+#monitor{
+    background-image: url(../img/monitor.jpg);
 }
 
 #graph{
-    
     background-image: url(../img/graph.jpg);
-    height: 208px;
-    width: 312px;
 }
